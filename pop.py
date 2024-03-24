@@ -70,3 +70,4 @@ def update(event):
 select.param.watch(update,'value')
 size.param.watch(update,'value')
 layout.servable()
+server=layout.servable(
